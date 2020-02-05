@@ -12,7 +12,7 @@ if __name__ == '__main__':
         #   É necessário informar o raio do círculo.
         #   Sintaxe: area_circulo_v3 <raio>""")
         print("É necessário informar o raio do círculo.")
-        print("Sintaxe: area_circulo_v3 <raio>")
+        print("Sintaxe: {} <raio>".format(sys.argv[0][92:]))
     else:
         raio = sys.argv[1]
         area = circulo(raio)
