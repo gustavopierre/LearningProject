@@ -5,14 +5,14 @@ import sys
 def circulo(raio):
     return pi*(float(raio)**2)
 
+def help():
+    print("É necessário informar o raio do círculo.")
+    print("Sintaxe: {} <raio>".format(sys.argv[0][92:]))
+
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        # print("""\
-        #   É necessário informar o raio do círculo.
-        #   Sintaxe: area_circulo_v3 <raio>""")
-        print("É necessário informar o raio do círculo.")
-        print("Sintaxe: {} <raio>".format(sys.argv[0][92:]))
+        help()
     else:
         raio = sys.argv[1]
         area = circulo(raio)
