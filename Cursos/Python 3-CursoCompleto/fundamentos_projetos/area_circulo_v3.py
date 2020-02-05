@@ -1,10 +1,11 @@
-from math  import pi
+from math import pi
+
 
 def circulo(raio):
-    area = pi*(float(raio)**2)
-    print(area)
+    return pi*(float(raio)**2)
 
-if  __name__ == '__main__':
+
+if __name__ == '__main__':
     raio = input('Informe o raio: ')
-    circulo(raio)
-    
+    area = circulo(raio)
+    print('A área do circulo é:', area)
