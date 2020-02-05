@@ -1,8 +1,7 @@
-#import math 
 from math  import pi
 
-print('pi = ', pi)
 
-raio = 5
-area = pi*(raio**2)
+raio = input('Informe o raio: ')
+area = pi*(float(raio)**2)
 print(area)
+
