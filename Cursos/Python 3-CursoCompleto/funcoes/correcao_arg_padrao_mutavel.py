@@ -12,4 +12,3 @@ if __name__ == '__main__':
     restart = fibonacci()
     print(restart, id(restart))
     assert restart == [0, 1, 1]
-
