@@ -5,7 +5,7 @@ def tag_bloco(conteudo, classe='success', inline=False):
 
 
 def tag_lista(*itens):
-    lista = ''.join((f'<li>{item}</li>' for item in itens))
+    lista = ''.join(f'<li>{item}</li>' for item in itens) #generator
     return f'<ul>{lista}</ul>'
 
 
