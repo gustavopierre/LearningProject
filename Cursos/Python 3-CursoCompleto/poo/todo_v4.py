@@ -64,7 +64,7 @@ def main():
     mercado = Projeto('Compras de mercado')
     mercado.add('Frutas secas')
     mercado.add('Carne')
-    mercado.add('Tomate', datetime.now() + timedelta(days=3, minutes=12))
+    mercado.add('Tomate', datetime.now() + timedelta(days=3, minutes=12)z)
     print(mercado)
 
     comprar_carne = mercado.procurar('Carne')
