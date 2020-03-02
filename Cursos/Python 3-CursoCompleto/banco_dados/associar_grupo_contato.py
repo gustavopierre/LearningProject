@@ -19,9 +19,9 @@ with nova_conexao() as conexao:
     try:
         cursor = conexao.cursor()
         for contato, grupo in contato_grupo.items():
-            cursor.execute(selecionar_grupo,(grupo,))
+            cursor.execute(selecionar_grupo, (grupo,))
             grupo_id = cursor.fetchone()[0]
-            cursor.execute(atualizar_contato,(grupo_id, contato))
+            cursor.execute(atualizar_contato, (grupo_id, contato))
             conexao.commit()
     except ProgrammingError as e:
         print(f'Erro: {e.msg}')
