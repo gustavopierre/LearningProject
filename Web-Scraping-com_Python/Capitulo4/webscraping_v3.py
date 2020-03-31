@@ -89,7 +89,7 @@ siteData =[
         'section#product-description'],
     ['Reuters', 'https://www.reuters.com', 'https://www.reuters.com/search/news?blob=', 
         'div.search-result-content', 'h3.search-result-title a', False, 'h1', 
-        'divStandardArticleBody_body_1gnLA'],
+        'div.StandardArticleBody_body_1gnLA'],
     ['Brookings', 'https://www.brookings.edu', 'https://www.brookings.edu/search/?s=', 
         'div.list-content article', 'h4.title a', True, 'h1', 
         'div.post-body']
