@@ -1,7 +1,7 @@
 
 #__Projeto 200 Dias/*200 Days Project*__
 
- ![](./python.png)
+ ![Logo do Python](./python.png)
 
 Projeto de estudos de algumas fontes relativas a Programação em Python durante 205 dias, iniciados em 08/02/2020 e término previsto para 25/08/2020./*Study project from some sources related to Python Programming for 205 days, starting on 02/08/2020 and ending on 08/25/2020.*
 Os seguintes livros e cursos serão estudados, dentro dos prazos estipulados:/*The following books and courses will be studied, within the stipulated deadlines:*
